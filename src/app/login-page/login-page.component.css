@@ -1,0 +1,25 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.main-div {
+  width: 20%;
+  padding: 20px;
+}
+
+input, button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+}
+
+.main-div input {
+}
+
+.main-div button {
+  background-color: blue;
+}

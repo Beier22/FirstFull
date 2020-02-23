@@ -4,6 +4,13 @@
   <h3>Please enter credentials</h3>
   <input type="username" placeholder="Username"/>
   <input type="password" placeholder="Password"/>
-  <button>Login what the fuck</button>
+  <button (click)="click()">Login what the fuck</button>
 </div>
+
+<div *ngFor="let u of users | async">
+  <h3>{{ u | json }}</h3>
+</div>
+
+
 </body>
+

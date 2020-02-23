@@ -23,3 +23,7 @@ input, button {
 .main-div button {
   background-color: blue;
 }
+
+.main-div button:hover {
+  background-color: red;
+}
